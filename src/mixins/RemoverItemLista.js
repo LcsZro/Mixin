@@ -1,7 +1,7 @@
 export default{
     methods:{
         removerItem() {
-            console.log('RemoverItem')
+            this.items.pop()
         }
     }
 }
